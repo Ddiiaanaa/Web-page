@@ -34,9 +34,20 @@ section {
     display: flex;
 }
 @media (min-width: 992px) {
+    sectione {
         flex-direction: row;
-        flex: 450px;
         flex-wrap: nowrap;
+    }
+    section {
+        flex: 450px;
+    }
+    article {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    article {
+        flex: 450px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px ){
         flex-wrap: wrap
